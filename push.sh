@@ -1,5 +1,5 @@
-CORE_TAG="ddk/core:${1:-tag}-${NODE_ENV:-development}"
-UI_TAG="ddk/ui:${2:-tag}-${NODE_ENV:-development}"
+CORE_TAG="ddk/core:${1:-v0.0.1}-${NODE_ENV:-development}"
+UI_TAG="ddk/ui:${2:-v0.0.1}-${NODE_ENV:-development}"
 REGISTRY_URL="${REGISTRY_URL:-docker.registry.zeppel.in.ua}"
 echo "DDK core version: $CORE_TAG"
 echo "DDK ui version: $UI_TAG"
